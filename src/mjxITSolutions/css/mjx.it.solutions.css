@@ -5,28 +5,30 @@ body{
 
 #NavBar{
     text-align:center;
+    overflow: auto;
 }
 
-#NavBar ul {
+#NavBar-ul {
     list-style-type: none;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 0;
-    overflow: auto;
-    background-color: #62666a;
+    overflow: auto; 
     display: inline-block;
 }
 
-#NavBar li {
+.NavBar-li {
     float: left;
+    background-color: #62666a;
 }
 
-#NavBar li a {
+.NavBar-li a {
     display: block;
     color: white;
     text-align: center;
     width: 300px;
     text-decoration: none;
+    height: 25px;
 }
 
 #NavBar li a:hover {
@@ -39,7 +41,7 @@ body{
 
 .CompanyInfo{
     background-color: #c0c3c5;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
     overflow: hidden;
@@ -47,6 +49,7 @@ body{
     display: -webkit-flex;            
     justify-content: center;            
     align-items: center;
+    position: relative;
 }
 
 .CompanyInfoContent{
@@ -58,6 +61,7 @@ body{
 #MJX_Title{
     display:inline-block;
     vertical-align: text-bottom;
+    float: right;
 }
 
 .MJX_TitleText{
@@ -109,4 +113,29 @@ body{
 
 .PageContent{
     width: 1016px; 
+}
+
+.NavBar-li:hover .NavBar-DropDown-Content{
+    height: 100%;
+}
+
+.NavBar-DropDown-Content{
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+}
+
+.NavBar-DropDown-Content li{
+    text-align: center;
+    list-style-type: none;
+    background-color: #62666a;
+}
+
+#NavBar-ul:after{
+  content: ''; 
+  display: block; 
+  clear: both; 
 }
