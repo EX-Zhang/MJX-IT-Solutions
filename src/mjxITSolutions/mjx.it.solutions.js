@@ -9,7 +9,7 @@ import './css/mjx.it.solutions.css';
 
 function MJX_IT_Solutions() {
   return (
-    <div>
+    <div id="MainDiv">
       <div id="NavBar">
         <ul id="NavBar-ul">
           <li className="NavBar-li"><a className={PageIsActive("home")} href="/">Home</a></li>
@@ -20,7 +20,7 @@ function MJX_IT_Solutions() {
             </ul>
           </li>
           <li className="NavBar-li"><a className={PageIsActive("about")} href="/about">About Us</a></li>
-          <li className="NavBar-li"><a className={PageIsActive("contact")} href="/contact">Contact Us</a></li>
+          <li className="NavBar-li"><a className={PageIsActive("contact-us")} href="/contact-us">Contact Us</a></li>
         </ul>
       </div>
 
@@ -41,7 +41,7 @@ function MJX_IT_Solutions() {
             <Route path="/home" element={<Home />} />
             <Route path="/service" element={<Service />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/contact-us" element={<Contact />} />
             <Route path="/emr" element={<EMR />} />
             <Route path="/network" element={<Network />} />
           </Routes>
@@ -53,17 +53,17 @@ function MJX_IT_Solutions() {
           <ul>
             <li><a href="/about">About Us</a></li>
             <li><a href="/service">Services</a></li>
-            <li><a href="/contact">Careers</a></li>
+            <li><a href="/contact-us">Careers</a></li>
           </ul>
           <ul>
-            <li><a href="/contact">Support</a></li>
-            <li><a href="/contact">New Flashes</a></li>
+            <li><a href="/contact-us">Support</a></li>
+            <li><a href="/contact-us">New Flashes</a></li>
           </ul>
           <ul>
             <li><a href="">Follow us on Twitter</a></li>
             <li><a href="">Like us on Facebook</a></li>
-            <li><a href="/contact">Join our team</a></li>
-            <li><a href="/contact">Give us your feedback</a></li>
+            <li><a href="/contact-us">Join our team</a></li>
+            <li><a href="/contact-us">Give us your feedback</a></li>
           </ul>
         </div>
       </div>

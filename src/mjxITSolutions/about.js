@@ -1,6 +1,7 @@
 import './css/about.css';
 
 function About() {
+  document.title = "About Us | MJX IT Solutions Inc.";
   return (
     <div className="PageContent">
       <div id="AboutUS">
