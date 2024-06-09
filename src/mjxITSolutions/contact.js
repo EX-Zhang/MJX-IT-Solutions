@@ -1,7 +1,10 @@
+import { isMobileOnly } from 'react-device-detect';
+
 import './css/contact.css';
 
 function Contact() {
   document.title = "Contact Us | MJX IT Solutions Inc.";
+
   return (
     <div className="PageContent">
       <div id="ContactUs">

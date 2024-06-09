@@ -1,12 +1,15 @@
+import { isMobileOnly } from 'react-device-detect';
+
 import './css/service.css';
 
 function Service() {
   document.title = "Services | MJX IT Solutions Inc.";
+
   return (
     <div className="PageContent">
-      <div id="Service">
-        <h1>Managed Services</h1>
-        <p>Resolute can manage, advise and maintain all of your technology so you can focus on building your business. We are able to resolve most of the issues remotely or on-site within the same day or the next day. </p>
+      <div id="Service" className={isMobileOnly ? "MobileText" : ""}>
+        <h1 className={isMobileOnly ? "MobileAlignCenter" : ""}>Managed Services</h1>
+        <p>MJX IT Solutions can manage, advise and maintain all of your technology so you can focus on building your business. We are able to resolve most of the issues remotely or on-site within the same day or the next day. </p>
       </div>
     </div>
   );
@@ -14,10 +17,11 @@ function Service() {
 
 function EMR() {
   document.title = "EMR System | MJX IT Solutions Inc.";
+
   return (
     <div className="PageContent">
-      <div id="EMR">
-        <h1>EMR Transition & Support</h1>
+      <div id="EMR" className={isMobileOnly ? "MobileText" : ""}>
+        <h1 className={isMobileOnly ? "MobileAlignCenter" : ""}>EMR Transition & Support</h1>
         <p>Whether you are implementing a new EMR, switching EMR vendors, or need support with your existing EMR solution, we can provide you with the support and guidance you need!</p>
         <h2>We like technology — but we love results.</h2>
         <p>
@@ -35,10 +39,11 @@ function EMR() {
 
 function Network() {
   document.title = "Networking | MJX IT Solutions Inc.";
+
   return (
     <div className="PageContent">
-      <div id="Network">
-        <h1>Computer Network Design & Deployment</h1>
+      <div id="Network" className={isMobileOnly ? "MobileText" : ""}>
+        <h1 className={isMobileOnly ? "MobileAlignCenter" : ""}>Computer Network Design & Deployment</h1>
         <p>At MJX IT Solutions, we take care to provide our customers high quality IT services personalized for their unique business needs. Be it a dental clinic, a veterinary hospital, lawyers, real estate agents, our staff is well experienced in a variety of industries. We help you concentrate on your core business and leave the technology to professional, knowledgeable and courteous staff.</p>
       </div>
     </div>
