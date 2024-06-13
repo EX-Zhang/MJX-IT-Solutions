@@ -35,7 +35,10 @@
 .DetailImg_mobile{
     display: inline-block;
     width: 20%;
-    vertical-align: text-bottom; 
+    vertical-align: text-bottom;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 8px;
 }
 
 .DetailText_mobile{
@@ -53,6 +56,10 @@
     font-weight: bold;
 }
 
+.DetailText_mobile p{
+    font-size: 15px;
+    margin-left: 50px;
+}
 
 #NetworkingDetail{
     

@@ -74,8 +74,8 @@ p{
     color: white;
     text-align: center;
     text-decoration: none;
-    width: 250px;
-    font-size: 18px;
+    width: 150px;
+    font-size: 10px;
     font-weight: normal;
 
 }
@@ -161,12 +161,9 @@ p{
 
 #SiteFoot_mobile ul{
     list-style-type: none;
-    width: 180px;
-    display: inline-block;
     vertical-align: top;
-    margin-right:50px;
-    margin-left: 0;
     float: left;
+    display: inline-block;
 }
 
 #SiteFoot_mobile li{
@@ -179,7 +176,7 @@ p{
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 #SiteFoot_mobile li a:hover{
