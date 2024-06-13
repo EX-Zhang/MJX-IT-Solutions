@@ -43,7 +43,7 @@ function PageIsActive(Page_ID) {
 
 }
 
-function SetActivePage(Page_ID) {
+function SetActivePage() {
 
   let url = window.location.pathname.slice(1);
 
@@ -55,7 +55,7 @@ function SetActivePage(Page_ID) {
 
   Active_Page.add(url);
 
-  if (!isMobileOnly && url === "emr" || url === "network") {
+  if (!isMobileOnly && (url === "emr" || url === "network")) {
 
     Active_Page.add("service");
 
