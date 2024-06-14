@@ -34,23 +34,29 @@
 
 .DetailImg_mobile{
     display: inline-block;
-    width: 20%;
     vertical-align: text-bottom;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 8px;
+    margin-top: 40px;
+    width: 100%;
 }
 
 .DetailText_mobile{
-    display: inline-block;
-    float: right;
     text-align: center;
     vertical-align: middle;
-    width: 70%;
     margin-right: 25px;
 }
 
+.DetailImg_mobile img{
+    text-align: left;
+}
+
+.DetailImg_mobile h3{
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+}
+
 .DetailImg_mobile a{
+    font-size: 17px;
     text-decoration: none;
     color: black;
     font-weight: bold;

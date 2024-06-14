@@ -88,7 +88,7 @@ function MJX_IT_Solutions_Header() {
 
         <div className="CompanyInfo">
           <div id="CompanyInfo" className="CompanyInfoContent">
-            <img id="MJX_Img" src={require("./img/MJXTitle.png")} alt="" />
+            <img id="MJX_Img_mobile" src={require("./img/MJXTitle.png")} alt="" />
             <div id="MJX_Title_mobile">
               <h1>MJX IT Solutions</h1>
               <h3>IT Specialists You Can Trust</h3>

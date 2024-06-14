@@ -117,7 +117,6 @@ p{
     display:inline-block;
     vertical-align: text-bottom;
     float: right;
-    margin-right: 25px;
 }
 
 .MJX_TitleText{
@@ -126,6 +125,12 @@ p{
 
 #MJX_Img{
     vertical-align: text-bottom;
+}
+
+#MJX_Img_mobile{
+    vertical-align: text-bottom;
+    float: left;
+    width: 40%;
 }
 
 #SiteFoot{
@@ -227,4 +232,12 @@ p{
 
 .MobileAlignCenter{
     text-align: center;
+}
+
+#MJX_Title_mobile h1{
+    font-size: 20px;
+}
+
+#MJX_Title_mobile h3{
+    font-size: 15px;
 }
