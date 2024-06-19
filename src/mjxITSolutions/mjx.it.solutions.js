@@ -77,12 +77,12 @@ function MJX_IT_Solutions_Header() {
             <li className="NavBar-li-mobile"><a className={PageIsActive("service")} href="/service">Services</a></li>
           </ul>
           <ul className="NavBar-ul">
-            <li className="NavBar-li-mobile"><a className={PageIsActive("about")} href="/about">About Us</a></li>
+            <li className="NavBar-li-mobile"><a className={PageIsActive("network")} href="/network">Computer Network</a></li>
             <li className="NavBar-li-mobile"><a className={PageIsActive("emr")} href="/emr">EMR Deployment & Support</a></li>
           </ul>
           <ul className="NavBar-ul">
             <li className="NavBar-li-mobile"><a className={PageIsActive("contact-us")} href="/contact-us">Contact Us</a></li>
-            <li className="NavBar-li-mobile"><a className={PageIsActive("network")} href="/network">Computer Network</a></li>
+            <li className="NavBar-li-mobile"><a className={PageIsActive("about")} href="/about">About Us</a></li>
           </ul>
         </div>
 
